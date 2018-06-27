@@ -1,2 +1,3 @@
-# demo-user
-Demo user of the Demo Library
+# Demo User
+
+Demo user of the Demo Library.
