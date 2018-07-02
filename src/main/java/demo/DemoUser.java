@@ -6,15 +6,9 @@ import org.cafejojo.schaapi.test.library.LibraryClass;
 import java.nio.charset.Charset;
 
 public class UserClass {
-    public int userFoo() {
+    public double userFoo() {
     	LibraryClass l = new LibraryClass();
         int x = l.foo();
-        double y = l.bar(x);
-
-        if (y > 5) {
-        	return 1;
-        } else {
-        	return 0;
-        }
+        return l.bar(x);
     }
 }
